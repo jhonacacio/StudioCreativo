@@ -1,0 +1,56 @@
+// pagina de proyectos
+.projects {
+    width: 100%;
+    margin-top: 30px;
+    h1{
+        margin: 20px 110px;
+        text-align: center;
+        }
+}
+.projects__div{
+    @extend %displayFlex;
+    @include flexWrapContainer(center, wrap);
+}
+.projects__post {
+    margin: 30px 20px;
+    width: 100%;
+}
+.projects__gallery {
+    img {
+        @include images (20px, 100%, 200px);
+    }
+    iframe {
+        @include images (20px, 100%, 200px);
+    }
+}
+.projects__descriptionPost{
+    p {
+        font-size: $primaryFontSize;
+         color: $fontColor;
+         text-align: center;
+    }
+    h2{
+        color: $fontColor;
+        margin-top: 4vh;
+        text-align: center; 
+        font-family: 'Staatliches', cursive;
+        font-size: 2.2vh;   
+    }
+}
+.projects__shortDescription {
+    margin: 20px 30px;
+    font-size: $primaryFontSize;
+    color: $fontColor;
+}
+/* lista lateral de proyectos */
+.projectsAside {
+    @extend %asideContent;
+}
+.projectsAside__list {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.projectsAside__contact{
+    @extend %botonContacto;
+}

@@ -1,0 +1,9 @@
+@mixin flexWrapContainer($alignItems, $flexWrap){
+    align-items: $alignItems;
+    flex-wrap: $flexWrap;
+}
+@mixin images($borderRadius, $width, $height){
+    border-radius: $borderRadius;
+        width: $width;
+        height: $height;
+}
