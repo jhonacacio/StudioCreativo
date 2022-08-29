@@ -45,6 +45,6 @@
     img {
         width: map-get($estilos, widthDos );
         margin: map-get($estilos , marginDos );
-        transition: 500ms;
+        margin: map-get($estilos , transicionUno );
     }
 }

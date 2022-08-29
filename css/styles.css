@@ -317,7 +317,7 @@
 .brands__logo img {
   width: 100px;
   margin: 10px;
-  transition: 500ms;
+  margin: 500ms;
 }
 
 .servicesAside__title {
@@ -398,7 +398,7 @@
 .servicesAside__contact:hover, .projectsAside__contact:hover {
   background-color: #E72E8B;
   color: #f1f1f1;
-  transition: 0.2s;
+  margin: 500ms;
 }
 
 .projects {
@@ -602,7 +602,7 @@
   }
   .headerOne__nav a {
     font-size: 1em;
-    transition: 500ms;
+    margin: 500ms;
   }
   .hamb {
     display: none;
@@ -611,7 +611,7 @@
     color: #C2D82E;
   }
   .headerOne__logo {
-    transition: 300ms;
+    margin: 500ms;
   }
   .headerOne__logo:hover {
     filter: grayscale(100%);
@@ -619,7 +619,7 @@
   /* sub banners */
   .mainPage__Subbanner img {
     width: 20%;
-    transition: 500ms;
+    margin: 500ms;
   }
   .mainPage__Subbanner img:hover {
     filter: saturate(0%);
@@ -662,7 +662,7 @@
   .featuredServices__images {
     width: 10%;
     filter: grayscale(0%);
-    transition: 0.3s ease-in-out;
+    margin: 500ms;
   }
   .featuredServices__images:hover {
     filter: grayscale(100%);
@@ -764,7 +764,7 @@
   }
   .equipoInferior__personas img {
     width: 90%;
-    transition: 500ms;
+    margin: 500ms;
   }
   .equipoInferior__personas h2 {
     font-size: 3vh;
