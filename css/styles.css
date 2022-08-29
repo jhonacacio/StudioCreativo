@@ -355,8 +355,8 @@
   width: 100%;
 }
 .services article h3, .services h1 {
-  margin: 20px 110px;
   text-align: center;
+  margin: 20px 110px;
 }
 .services article {
   margin: 20px 0;
@@ -390,8 +390,8 @@
   margin-top: 30px;
 }
 .projects h1 {
-  margin: 20px 110px;
   text-align: center;
+  margin: 20px 110px;
 }
 
 .projects__div {
@@ -435,8 +435,8 @@
 
 /* lista lateral de proyectos */
 .projectsAside__title {
-  margin: 60px 0 0 0;
   text-align: center;
+  margin: 60px 0 0 0;
 }
 
 .projectsAside__list {
@@ -451,7 +451,6 @@
   padding-top: 50px;
 }
 .equipoSuperior h1 {
-  font-family: "Staatliches", cursive;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -477,12 +476,11 @@
 
 .equipoInferior__personas {
   text-align: center;
+  margin: 20px 0;
   width: 100%;
-  margin: 20px 0px;
   color: #f1f1f1;
 }
 .equipoInferior__personas h2 {
-  font-family: "Staatliches", cursive;
   margin: 10px 0;
   font-size: 2vh;
 }
@@ -510,10 +508,8 @@
 }
 .contactContainer__left h1 {
   color: #f1f1f1;
-  font-size: 30px;
-  margin: 10px 0;
   text-align: center;
-  font-family: "Staatliches", cursive;
+  margin: 10px 0;
 }
 .contactContainer__left form {
   width: 80%;
@@ -523,8 +519,6 @@
   margin-bottom: 10vh;
 }
 .contactContainer__left form legend {
-  margin: 10px 0;
-  text-align: center;
   margin: auto;
   margin-bottom: 20px;
 }

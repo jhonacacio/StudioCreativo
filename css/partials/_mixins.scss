@@ -23,3 +23,7 @@
     height: $height;
     margin: $margin;
 }
+@mixin alineacionTexto($textAlign, $marginText) {
+    text-align: $textAlign;
+    margin: $marginText;
+}

@@ -10,10 +10,7 @@
     }
     h1{
         color: $fontColor;
-        font-size: 30px;
-        margin: 10px 0;
-        text-align: center;
-        font-family: 'Staatliches', cursive;
+        @include alineacionTexto(center, 10px 0);
     }
     form{
         width: 80%;
@@ -24,8 +21,6 @@
         margin-bottom: 10vh;
     }
     form legend{
-        margin: 10px 0;
-        text-align: center;
         margin: map-get($estilos, marginUno );
         margin-bottom: 20px;
     

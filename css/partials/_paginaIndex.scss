@@ -22,8 +22,7 @@
 }
 /* seccion de servicios destacados */
 .featuredServices__title, .brands__tittle{
-    text-align: center;
-    margin: 30px 0;
+    @include alineacionTexto(center, 30px 0);
 }
 .featuredServices__content{
     @extend %displayFlex;

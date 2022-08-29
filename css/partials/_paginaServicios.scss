@@ -31,8 +31,7 @@
 .services {
     width: map-get($estilos, widthUno );
     article h3,h1 {
-    margin: 20px 110px;
-    text-align: center;
+        @include alineacionTexto(center, 20px 110px);
     }
     article {
         margin: 20px 0;

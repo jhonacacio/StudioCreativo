@@ -4,7 +4,6 @@
     color: $fontColor;
     padding-top: 50px;
     h1{
-        font-family: 'Staatliches', cursive;
         text-align: center;
         margin-bottom: 40px;
     }
@@ -27,12 +26,10 @@
     margin: 40px 0;
 }
 .equipoInferior__personas{
-    text-align: center;
+    @include alineacionTexto (center, 20px 0);
     width: map-get($estilos, widthUno );
-    margin: 20px 0px;
     color: $fontColor;
     h2 {
-        font-family: 'Staatliches', cursive;
         margin: 10px 0;
         font-size: 2vh;
     }

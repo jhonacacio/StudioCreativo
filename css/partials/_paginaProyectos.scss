@@ -3,8 +3,7 @@
     width: map-get($estilos, widthUno );
     margin-top: $marginTopGeneral;
     h1{
-        margin: 20px 110px;
-        text-align: center;
+        @include alineacionTexto (center, 20px 110px)
         }
 }
 .projects__div{
@@ -46,13 +45,11 @@
     @extend %asideContent;
 }
 .projectsAside__title {
-    margin: 60px 0 0 0;
-    text-align: center;
+    @include alineacionTexto (center, 60px 0 0 0);
 }
 .projectsAside__list {
     width: 50%;
-    text-align: center;
-    margin: auto;
+    @include alineacionTexto(center,auto);
 }
 .projectsAside__contact{
     @extend %botonContacto;
