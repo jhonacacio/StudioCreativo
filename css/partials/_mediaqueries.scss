@@ -48,9 +48,8 @@
         /* sub banners */
     .mainPage__Subbanner{
         img {
-            width: 20%;
+            @include medidasBasicas(20%, 20%, 10px);
             transition: map-get($estilos , transicionUno );
-            margin: map-get($estilos , marginDos);
         }
     }
     .mainPage__Subbanner {

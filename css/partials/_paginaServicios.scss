@@ -84,6 +84,6 @@
     &:hover {
         background-color: $complementarycolor;
         color: $fontColor;
-        margin: map-get($estilos , transicionUno );
+        transition: map-get($estilos , transicionUno );
     }
 }

@@ -11,3 +11,8 @@
             border-radius: 0px;
         }
 }
+@mixin medidasBasicas($width, $height, $margin){
+    width: $width;
+    height: $height;
+    margin: $margin;
+}

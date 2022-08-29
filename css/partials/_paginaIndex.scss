@@ -16,8 +16,9 @@
     margin-top: 20px;
     img {
         @include images ( true, 38%, 38%);
-        width: map-get($estilos, marginDos );
+        margin: map-get($estilos, marginDos );
         filter: saturate(100%);
+        
     }
 }
 /* seccion de servicios destacados */
@@ -39,9 +40,7 @@
 .brands__logo {
     @extend %displayFlex;
     @include flexWrapContainer(center, wrap);
-    width: map-get($estilos, widthUno );
-    height: 100px;
-    margin: map-get($estilos , marginUno );
+    @include medidasBasicas(100%, 100px, auto);
     img {
         width: map-get($estilos, widthDos );
         margin: map-get($estilos , marginDos );

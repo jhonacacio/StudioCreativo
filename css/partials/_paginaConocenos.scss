@@ -16,7 +16,7 @@
     }
 }
 .equipoInferior{
-    width: map-get($estilos, marginUno);
+    margin: map-get($estilos, marginUno);
     width: 80%;
     img {
         border-radius: 20px;
