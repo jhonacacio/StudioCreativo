@@ -373,6 +373,15 @@
   margin: 20px 0;
 }
 
+/* seccion de servicios destacados */
+.featuredServices__content {
+  width: 100%;
+}
+.featuredServices__content img {
+  width: 80px;
+  margin: 10px;
+}
+
 /* lista lateral de servicios */
 .servicesAside__list, .projectsAside__list {
   text-align: center;
@@ -415,6 +424,7 @@
   width: 100%;
 }
 
+/*imagenes de proyectos*/
 .projects__gallery img {
   width: 100%;
   height: 200px;
@@ -426,6 +436,7 @@
   border-radius: 10px;
 }
 
+/*descripcion de proyectos*/
 .projects__descriptionPost p {
   font-size: 1em;
   color: #f1f1f1;
@@ -497,15 +508,6 @@
 }
 .equipoInferior__personas p {
   font-size: 1em;
-}
-
-/* seccion de servicios destacados */
-.featuredServices__content {
-  width: 100%;
-}
-.featuredServices__content img {
-  width: 80px;
-  margin: 10px;
 }
 
 .contactContainer__left {
@@ -639,7 +641,7 @@
   }
   .featuredServices__images:hover {
     filter: grayscale(100%);
-    width: 9%;
+    width: 8%;
   }
   .images__aside {
     display: flex;

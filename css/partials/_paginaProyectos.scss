@@ -14,6 +14,7 @@
     margin: 30px 20px;
     width: map-get($estilos, widthUno );
 }
+/*imagenes de proyectos*/
 .projects__gallery {
     img {
         @include images (true, 100%, 200px);
@@ -22,6 +23,7 @@
         @include images (true, 100%, 200px);
     }
 }
+/*descripcion de proyectos*/
 .projects__descriptionPost{
     p {
         font-size: $primaryFontSize;

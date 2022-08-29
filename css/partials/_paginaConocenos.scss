@@ -37,11 +37,3 @@
         font-size: $primaryFontSize;
     }
 }
-/* seccion de servicios destacados */
-.featuredServices__content{
-    width: 100%;
-    img{
-        width: 80px;
-        margin: map-get($estilos, marginDos );
-    }
-}
