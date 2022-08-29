@@ -17,10 +17,10 @@
 }
 .projects__gallery {
     img {
-        @include images (20px, 100%, 200px);
+        @include images (true, 100%, 200px);
     }
     iframe {
-        @include images (20px, 100%, 200px);
+        @include images (true, 100%, 200px);
     }
 }
 .projects__descriptionPost{

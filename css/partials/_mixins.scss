@@ -2,8 +2,12 @@
     align-items: $alignItems;
     flex-wrap: $flexWrap;
 }
-@mixin images($borderRadius, $width, $height){
-    border-radius: $borderRadius;
+@mixin images($borderRadius: false, $width, $height){
         width: $width;
         height: $height;
+        @if ($borderRadius) {
+            border-radius: 10px;  
+        }@else{
+            border-radius: 0px;
+        }
 }

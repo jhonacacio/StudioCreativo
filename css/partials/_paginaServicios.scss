@@ -17,11 +17,11 @@
 }
 .services__gallery {
     img{
-        @include images (20px, 300px, 300px);
+        @include images (true, 300px, 300px);
     }
     div{
         img {
-            @include images (10px, 80px, 80px);
+            @include images (true, 80px, 80px);
             margin: 5px 8px;
         }
     }
@@ -63,7 +63,7 @@
 }
 .servicesAside, .projectsAside{
     img{
-        @include images (20px, 38%, 38%);
+        @include images (true, 38%, 38%);
         margin: 30px auto;
     }
 }

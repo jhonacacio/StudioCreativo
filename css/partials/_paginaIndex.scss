@@ -15,7 +15,7 @@
     @include flexWrapContainer(center, wrap);
     margin-top: 20px;
     img {
-        @include images (10px, 38%, 38%);
+        @include images ( true, 38%, 38%);
         margin: 15px 10px;
         filter: saturate(100%);
     }
@@ -32,7 +32,7 @@
     margin: auto;
 }
 .featuredServices__images{
-    @include images (10px, 38%, 38%);
+    @include images (true, 38%, 38%);
     margin: 10px;
 }
 /* marcas con las que trabajamos */
