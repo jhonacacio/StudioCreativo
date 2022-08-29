@@ -1,7 +1,9 @@
+/*propiedad wrap y alineacion para los flex*/
 @mixin flexWrapContainer($alignItems, $flexWrap){
     align-items: $alignItems;
     flex-wrap: $flexWrap;
 }
+/*propiedad imagenes, con border radius*/
 @mixin images($borderRadius: false, $width, $height){
         width: $width;
         height: $height;
@@ -11,6 +13,7 @@
             border-radius: 0px;
         }
 }
+/*propiedad las animaciones que contengan filtros en escala de grises*/
 @mixin filtroGris($filtro: false){
     @if($filtro){
         filter: grayscale(0%);
@@ -18,11 +21,13 @@
         filter: grayscale(100%);
     }
 }
+/*control de medidas basicas con margen adicional*/
 @mixin medidasBasicas($width, $height, $margin){
     width: $width;
     height: $height;
     margin: $margin;
 }
+/*Alineacion de texto con margen adicional*/
 @mixin alineacionTexto($textAlign, $marginText) {
     text-align: $textAlign;
     margin: $marginText;

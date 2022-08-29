@@ -1,3 +1,4 @@
+/*diseno de botones principales*/
 %botonContacto {
     margin: 30px 0;
     padding: 10px 20px;
@@ -11,6 +12,7 @@
     width: 120px;
     border-radius: 10px;
 }
+/*grids para paginas con aside*/
 %wrapperGridAreaAside {
     display: grid;
     grid-template-areas: "header header header"
@@ -22,6 +24,7 @@
     width: 100%;
     background-color: $primaryColor;
 }
+/*grid para paginas simples*/
 %wrapperGridArea{
     display: grid;
     grid-template-areas: "header header header"
@@ -32,15 +35,18 @@
     width: 100%;
     background-color: $primaryColor;  
 }
+/*background para los aside*/
 %asideContent {
     background-image: linear-gradient(rgba(255, 0, 187, 0.5), rgba(255, 0, 123, 0.2)),url(../images/fondo-contacto.jpeg);
     background-size: cover;
     padding-top: 50px;
 }
+/*propiedad displey flex centrado*/
 %displayFlex {
     display: flex;
     justify-content: center;
 }
+/*propiedad displey flex en columna centrado*/
 %displayFlexColumn{
     display: flex;
     flex-direction: column;

@@ -2,6 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+/*propiedad wrap y alineacion para los flex*/
+/*propiedad imagenes, con border radius*/
+/*propiedad las animaciones que contengan filtros en escala de grises*/
+/*control de medidas basicas con margen adicional*/
+/*Alineacion de texto con margen adicional*/
+/*diseno de botones principales*/
 .projectsAside__contact, .servicesAside__contact {
   margin: 30px 0;
   padding: 10px 20px;
@@ -16,6 +22,7 @@
   border-radius: 10px;
 }
 
+/*grids para paginas con aside*/
 .wrapperProjects, .wrapperServices {
   display: grid;
   grid-template-areas: "header header header" "main main main" "aside aside aside" "footer footer footer";
@@ -25,6 +32,7 @@
   background-color: #121212;
 }
 
+/*grid para paginas simples*/
 .wrapperProjectsContact, .wrapperProjectsConocenos, #wrapperIndex {
   display: grid;
   grid-template-areas: "header header header" "main main main" "footer footer footer";
@@ -34,17 +42,20 @@
   background-color: #121212;
 }
 
+/*background para los aside*/
 .projectsAside, .servicesAside {
   background-image: linear-gradient(rgba(255, 0, 187, 0.5), rgba(255, 0, 123, 0.2)), url(../images/fondo-contacto.jpeg);
   background-size: cover;
   padding-top: 50px;
 }
 
+/*propiedad displey flex centrado*/
 .projects__div, .servicesAside div, .projectsAside div, .projectsAside__imgEquipo, .images__aside, .brands__logo, .featuredServices__content, .mainPage__Subbanner {
   display: flex;
   justify-content: center;
 }
 
+/*propiedad displey flex en columna centrado*/
 .contactContainer__left form, .contactContainer__left, .services__post, .footer__content, .headerOne {
   display: flex;
   flex-direction: column;
