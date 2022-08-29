@@ -43,7 +43,7 @@
 }
 
 /*background para los aside*/
-.projectsAside, .servicesAside {
+.contactContainer__left, .projectsAside, .servicesAside {
   background-image: linear-gradient(rgba(255, 0, 187, 0.5), rgba(255, 0, 123, 0.2)), url(../images/fondo-contacto.jpeg);
   background-size: cover;
   padding-top: 50px;
@@ -509,10 +509,7 @@
 }
 
 .contactContainer__left {
-  padding-top: 70px;
   width: 100%;
-  background-image: linear-gradient(rgba(255, 0, 187, 0.5), rgba(255, 0, 123, 0.2)), url(../images/fondo-contacto.jpeg);
-  background-size: cover;
 }
 .contactContainer__left div {
   width: 100%;
@@ -549,22 +546,16 @@
   width: 300px;
 }
 
-.contactContainer__left__form {
+.contactContainer__left__form, .contactContainer__left__textArea {
   width: 300px;
   height: 30px;
+  border-radius: 10px;
   border: solid 2px #E72E8B;
-  border-radius: 20px;
   text-align: center;
   font-size: 1em;
 }
 
 .contactContainer__left__textArea {
-  width: 300px;
-  height: 80px;
-  border: solid 2px #E72E8B;
-  border-radius: 20px;
-  text-align: center;
-  font-size: 1em;
   padding-top: 60px;
 }
 
