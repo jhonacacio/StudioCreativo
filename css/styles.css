@@ -45,6 +45,12 @@
   justify-content: center;
 }
 
+.contactContainer__left form, .contactContainer__left, .services__post, .footer__content, .headerOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* logo y navegacion */
 .nav {
   width: 100%;
@@ -118,9 +124,6 @@
 }
 
 .headerOne {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   justify-content: space-around;
   margin-top: 0px;
   background-color: #121212;
@@ -159,10 +162,7 @@
 
 /* inicio del footer */
 .footer__content {
-  display: flex;
   justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
   background-color: #121212;
   color: #f1f1f1;
   height: 650px;
@@ -330,9 +330,6 @@
 }
 
 .services__post {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin: 50px 0;
   color: #f1f1f1;
 }
@@ -515,9 +512,6 @@
   width: 100%;
   background-image: linear-gradient(rgba(255, 0, 187, 0.5), rgba(255, 0, 123, 0.2)), url(../images/fondo-contacto.jpeg);
   background-size: cover;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 .contactContainer__left div {
   width: 100%;
@@ -534,9 +528,6 @@
   background-color: #f1f1f1;
   border-radius: 20px;
   padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin-bottom: 10vh;
 }
 .contactContainer__left form legend {
@@ -582,13 +573,6 @@
 
 @media (min-width: 1024px) {
   /* contenedor del index */
-  #wrapperIndex {
-    display: grid;
-    grid-template-areas: "header header header" "main main main" "footer footer footer";
-    grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 100%;
-  }
   .mainPage__banner img {
     display: none;
   }

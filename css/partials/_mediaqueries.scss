@@ -1,13 +1,7 @@
 @media  (min-width: 1024px){
     /* contenedor del index */
     #wrapperIndex {
-        display: grid;
-        grid-template-areas: "header header header"
-                              "main main main"
-                              "footer footer footer";
-        grid-template-rows: auto;
-        grid-template-columns: 1fr 1fr 1fr;
-        width: 100%;
+        @extend %wrapperGridArea;
     }
     .mainPage__banner{
         img {

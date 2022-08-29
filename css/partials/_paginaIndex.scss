@@ -18,7 +18,6 @@
         @include images ( true, 38%, 38%);
         margin: map-get($estilos, marginDos );
         @include filtroGris (true);
-        
     }
 }
 /* seccion de servicios destacados */
