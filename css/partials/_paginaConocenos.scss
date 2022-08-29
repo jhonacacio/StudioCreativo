@@ -9,7 +9,7 @@
         margin-bottom: 40px;
     }
     div {
-        width: 100%;
+        width: map-get($estilos, widthUno );
     }
     img {
         border-radius: 20px;
@@ -23,12 +23,12 @@
     }
 }
 .equipoSuperior__imagen{
-    width: 100%;
+    width: map-get($estilos, widthUno );
     margin: 40px 0;
 }
 .equipoInferior__personas{
     text-align: center;
-    width: 100%;
+    width: map-get($estilos, widthUno );
     margin: 20px 0px;
     color: $fontColor;
     h2 {

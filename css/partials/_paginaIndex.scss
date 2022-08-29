@@ -1,7 +1,7 @@
 /* banner principal  */
 .mainPage__banner {
     img {
-        width: 100%;
+        width: map-get($estilos, widthUno );
     }
 }
 .mainPage__bannerDesktop{
@@ -28,7 +28,7 @@
 .featuredServices__content{
     @extend %displayFlex;
     @include flexWrapContainer(center, wrap);
-    width: 100%;
+    width: map-get($estilos, widthUno );
     margin: auto;
 }
 .featuredServices__images{
@@ -39,12 +39,12 @@
 .brands__logo {
     @extend %displayFlex;
     @include flexWrapContainer(center, wrap);
-    width: 100%;
+    width: map-get($estilos, widthUno );
     height: 100px;
-    margin:auto;
+    margin: map-get($estilos , marginUno );
     img {
-        width: 100px;
-        margin: 10px;
+        width: map-get($estilos, widthDos );
+        margin: map-get($estilos , marginDos );
         transition: 500ms;
     }
 }

@@ -4,7 +4,7 @@
 }
 /* Seccion de servicios */
 .services {
-    width: 100%;
+    width: map-get($estilos, widthUno );
     margin-top: 30px;
 }
 
@@ -31,7 +31,7 @@
     font-size: $primaryFontSize;
 }
 .services {
-    width: 100%;
+    width: map-get($estilos, widthUno );
     article h3,h1 {
     margin: 20px 110px;
     text-align: center;
