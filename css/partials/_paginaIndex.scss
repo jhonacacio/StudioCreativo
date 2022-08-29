@@ -29,11 +29,11 @@
     @extend %displayFlex;
     @include flexWrapContainer(center, wrap);
     width: map-get($estilos, widthUno );
-    width: map-get($estilos, marginUno);
-}
-.featuredServices__images{
-    @include images (true, 38%, 38%);
-    width: map-get($estilos, marginDos );
+    margin: map-get($estilos, marginUno);
+    img{
+        @include images (true, 58%, 58%);
+        margin: map-get($estilos, marginDos );
+    }
 }
 /* marcas con las que trabajamos */
 .brands__logo {
@@ -45,6 +45,6 @@
     img {
         width: map-get($estilos, widthDos );
         margin: map-get($estilos , marginDos );
-        margin: map-get($estilos , transicionUno );
+        transition: map-get($estilos , transicionUno );
     }
 }

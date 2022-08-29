@@ -296,14 +296,13 @@
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  width: auto;
+  margin: auto;
 }
-
-.featuredServices__images {
-  width: 38%;
-  height: 38%;
+.featuredServices__content img {
+  width: 58%;
+  height: 58%;
   border-radius: 10px;
-  width: 10px;
+  margin: 10px;
 }
 
 /* marcas con las que trabajamos */
@@ -317,7 +316,7 @@
 .brands__logo img {
   width: 100px;
   margin: 10px;
-  margin: 500ms;
+  transition: 500ms;
 }
 
 .servicesAside__title {
@@ -602,7 +601,7 @@
   }
   .headerOne__nav a {
     font-size: 1em;
-    margin: 500ms;
+    transition: 500ms;
   }
   .hamb {
     display: none;
@@ -611,7 +610,7 @@
     color: #C2D82E;
   }
   .headerOne__logo {
-    margin: 500ms;
+    transition: 500ms;
   }
   .headerOne__logo:hover {
     filter: grayscale(100%);
@@ -619,7 +618,8 @@
   /* sub banners */
   .mainPage__Subbanner img {
     width: 20%;
-    margin: 500ms;
+    transition: 500ms;
+    margin: 10px;
   }
   .mainPage__Subbanner img:hover {
     filter: saturate(0%);
@@ -659,10 +659,10 @@
     margin-top: 110px;
     text-align: left;
   }
-  .featuredServices__images {
-    width: 10%;
+  .featuredServices__content img {
+    width: 120px;
     filter: grayscale(0%);
-    margin: 500ms;
+    transition: 500ms;
   }
   .featuredServices__images:hover {
     filter: grayscale(100%);
@@ -745,10 +745,12 @@
   }
   .equipoSuperior p {
     font-size: 1em;
-    width: 10px;
+    margin: 10px;
   }
   .equipoSuperior__imagen {
-    width: 39%;
+    width: 38%;
+    height: 38%;
+    border-radius: 10px;
   }
   .equipoInferior {
     display: flex;
@@ -764,7 +766,7 @@
   }
   .equipoInferior__personas img {
     width: 90%;
-    margin: 500ms;
+    transition: 500ms;
   }
   .equipoInferior__personas h2 {
     font-size: 3vh;

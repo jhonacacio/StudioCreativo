@@ -24,7 +24,7 @@
         display: flex;
         a {
             font-size: $primaryFontSize;
-            margin: map-get($estilos , transicionUno );
+            transition: map-get($estilos , transicionUno );
         }
     }
     .hamb{
@@ -38,7 +38,7 @@
         }
     }
     .headerOne__logo {
-        margin: map-get($estilos , transicionUno );
+        transition: map-get($estilos , transicionUno );
     }
     .headerOne__logo{
         &:hover{
@@ -49,7 +49,8 @@
     .mainPage__Subbanner{
         img {
             width: 20%;
-            margin: map-get($estilos , transicionUno );
+            transition: map-get($estilos , transicionUno );
+            margin: map-get($estilos , marginDos);
         }
     }
     .mainPage__Subbanner {
@@ -104,10 +105,12 @@
         text-align: left;
         }
     }
-.featuredServices__images{
-    width: 10%;
-    filter: grayscale(0%);
-	margin: map-get($estilos , transicionUno );
+.featuredServices__content{
+    img{
+        width: map-get($estilos , widthtres );
+        filter: grayscale(0%);
+	    transition: map-get($estilos , transicionUno );
+    }
 }
 .featuredServices__images{
     &:hover {
@@ -201,11 +204,11 @@
     }
     p{
         font-size: $primaryFontSize;
-        width: map-get($estilos, marginDos);
+        margin: map-get($estilos, marginDos);
     }
 }
 .equipoSuperior__imagen{
-    width: 39%;
+    @include images ( true, 38%, 38%);
 }
 .equipoInferior {
     display: flex;
@@ -220,7 +223,7 @@
     width: 22%;
     img{
         width: 90%;
-        margin: map-get($estilos , transicionUno );
+        transition: map-get($estilos , transicionUno );
     }
     h2 {
         font-size: 3vh;
