@@ -276,14 +276,14 @@
 .mainPage__Subbanner {
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 .mainPage__Subbanner img {
   width: 38%;
   height: 38%;
   border-radius: 10px;
   margin: 10px;
-  filter: saturate(100%);
+  filter: grayscale(0%);
 }
 
 /* seccion de servicios destacados */
@@ -437,7 +437,7 @@
 }
 .projects__descriptionPost h2 {
   color: #f1f1f1;
-  margin-top: 4vh;
+  margin-top: 30px;
   text-align: center;
   font-family: "Staatliches", cursive;
   font-size: 2.2vh;
@@ -623,7 +623,7 @@
     transition: 500ms;
   }
   .mainPage__Subbanner img:hover {
-    filter: saturate(0%);
+    filter: grayscale(100%);
   }
   /* marcas con las que trabajamos */
   .brands__logo img {
@@ -661,7 +661,7 @@
     text-align: left;
   }
   .featuredServices__content img {
-    width: 120px;
+    width: 100px;
     filter: grayscale(0%);
     transition: 500ms;
   }

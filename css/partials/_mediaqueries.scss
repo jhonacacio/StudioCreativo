@@ -42,7 +42,7 @@
     }
     .headerOne__logo{
         &:hover{
-            filter: grayscale(100%);
+            @include filtroGris (false);
         }
     }
         /* sub banners */
@@ -55,7 +55,7 @@
     .mainPage__Subbanner {
         img{
             &:hover {
-                filter: saturate(0%);
+                @include filtroGris (false);
             }
         }
     }
@@ -68,7 +68,7 @@
     .brands__logo {
         img{
             &:hover{
-                filter: grayscale(100%);
+                @include filtroGris (false);
                 width: 140px;
             }
         }
@@ -106,14 +106,14 @@
     }
 .featuredServices__content{
     img{
-        width: map-get($estilos , widthtres );
-        filter: grayscale(0%);
+        width: map-get($estilos , widthDos );
+        @include filtroGris (true);
 	    transition: map-get($estilos , transicionUno );
     }
 }
 .featuredServices__images{
     &:hover {
-        filter: grayscale(100%);
+        @include filtroGris (false);
         width: 9%;
     }
 }
@@ -231,7 +231,7 @@
 .equipoInferior__personas{
     img{
         &:hover{
-            filter: grayscale(100%);
+            @include filtroGris (false);
             width: 80%;
         }
     }

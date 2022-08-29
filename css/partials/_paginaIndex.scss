@@ -13,11 +13,11 @@
 .mainPage__Subbanner {
     @extend %displayFlex;
     @include flexWrapContainer(center, wrap);
-    margin-top: 20px;
+    margin-top: $marginTopGeneral;
     img {
         @include images ( true, 38%, 38%);
         margin: map-get($estilos, marginDos );
-        filter: saturate(100%);
+        @include filtroGris (true);
         
     }
 }

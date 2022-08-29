@@ -11,6 +11,13 @@
             border-radius: 0px;
         }
 }
+@mixin filtroGris($filtro: false){
+    @if($filtro){
+        filter: grayscale(0%);
+    }@else{
+        filter: grayscale(100%);
+    }
+}
 @mixin medidasBasicas($width, $height, $margin){
     width: $width;
     height: $height;

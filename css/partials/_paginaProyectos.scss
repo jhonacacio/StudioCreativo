@@ -1,7 +1,7 @@
 // pagina de proyectos
 .projects {
     width: map-get($estilos, widthUno );
-    margin-top: 30px;
+    margin-top: $marginTopGeneral;
     h1{
         margin: 20px 110px;
         text-align: center;
@@ -31,7 +31,7 @@
     }
     h2{
         color: $fontColor;
-        margin-top: 4vh;
+        margin-top: $marginTopGeneral;
         text-align: center; 
         font-family: 'Staatliches', cursive;
         font-size: 2.2vh;   
