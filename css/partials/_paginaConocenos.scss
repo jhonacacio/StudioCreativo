@@ -16,7 +16,7 @@
     }
 }
 .equipoInferior{
-    margin: auto;
+    width: map-get($estilos, marginUno);
     width: 80%;
     img {
         border-radius: 20px;
@@ -38,5 +38,13 @@
     }
     p{
         font-size: $primaryFontSize;
+    }
+}
+/* seccion de servicios destacados */
+.featuredServices__content{
+    width: 100%;
+    img{
+        width: 80px;
+        margin: map-get($estilos, marginDos );
     }
 }

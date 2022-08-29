@@ -282,7 +282,7 @@
   width: 38%;
   height: 38%;
   border-radius: 10px;
-  margin: 15px 10px;
+  width: 10px;
   filter: saturate(100%);
 }
 
@@ -296,14 +296,14 @@
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  margin: auto;
+  width: auto;
 }
 
 .featuredServices__images {
   width: 38%;
   height: 38%;
   border-radius: 10px;
-  margin: 10px;
+  width: 10px;
 }
 
 /* marcas con las que trabajamos */
@@ -475,7 +475,7 @@
 }
 
 .equipoInferior {
-  margin: auto;
+  width: auto;
   width: 80%;
 }
 .equipoInferior img {
@@ -500,6 +500,15 @@
 }
 .equipoInferior__personas p {
   font-size: 1em;
+}
+
+/* seccion de servicios destacados */
+.featuredServices__content {
+  width: 100%;
+}
+.featuredServices__content img {
+  width: 80px;
+  margin: 10px;
 }
 
 .contactContainer__left {
@@ -534,7 +543,7 @@
 .contactContainer__left form legend {
   margin: 10px 0;
   text-align: center;
-  margin: auto;
+  width: auto;
   margin-bottom: 20px;
 }
 .contactContainer__left form fieldset {
@@ -614,10 +623,6 @@
   }
   .mainPage__Subbanner img:hover {
     filter: saturate(0%);
-  }
-  /* seccion de servicios destacados */
-  .featuredServices__content {
-    width: 100%;
   }
   /* marcas con las que trabajamos */
   .brands__logo img {
@@ -740,7 +745,7 @@
   }
   .equipoSuperior p {
     font-size: 1em;
-    margin: 10px;
+    width: 10px;
   }
   .equipoSuperior__imagen {
     width: 39%;
@@ -749,7 +754,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: auto;
+    width: auto;
   }
   .equipoInferior p {
     font-size: 1em;

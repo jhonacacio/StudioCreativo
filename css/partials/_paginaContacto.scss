@@ -30,7 +30,7 @@
     form legend{
         margin: 10px 0;
         text-align: center;
-        margin: auto;
+        width: map-get($estilos, marginUno );
         margin-bottom: 20px;
     
     }

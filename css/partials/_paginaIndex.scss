@@ -16,7 +16,7 @@
     margin-top: 20px;
     img {
         @include images ( true, 38%, 38%);
-        margin: 15px 10px;
+        width: map-get($estilos, marginDos );
         filter: saturate(100%);
     }
 }
@@ -29,11 +29,11 @@
     @extend %displayFlex;
     @include flexWrapContainer(center, wrap);
     width: map-get($estilos, widthUno );
-    margin: auto;
+    width: map-get($estilos, marginUno);
 }
 .featuredServices__images{
     @include images (true, 38%, 38%);
-    margin: 10px;
+    width: map-get($estilos, marginDos );
 }
 /* marcas con las que trabajamos */
 .brands__logo {
