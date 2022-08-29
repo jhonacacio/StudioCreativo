@@ -33,8 +33,7 @@
         color: $fontColor;
         margin-top: $marginTopGeneral;
         text-align: center; 
-        font-family: 'Staatliches', cursive;
-        font-size: 2.2vh;   
+        font-size: $primaryFontSize;   
     }
 }
 .projects__shortDescription {
@@ -45,6 +44,10 @@
 /* lista lateral de proyectos */
 .projectsAside {
     @extend %asideContent;
+}
+.projectsAside__title {
+    margin: 60px 0 0 0;
+    text-align: center;
 }
 .projectsAside__list {
     width: 50%;
