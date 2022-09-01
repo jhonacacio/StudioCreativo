@@ -1,0 +1,58 @@
+// pagina de proyectos
+.projects {
+    width: map-get($estilos, widthUno );
+    margin-top: $marginTopGeneral;
+    h1{
+        @include alineacionTexto (center, 20px 110px)
+        }
+}
+.projects__div{
+    @extend %displayFlex;
+    @include flexWrapContainer(center, wrap);
+}
+.projects__post {
+    margin: 30px 20px;
+    width: map-get($estilos, widthUno );
+}
+/*imagenes de proyectos*/
+.projects__gallery {
+    img {
+        @include images (true, 100%, 200px);
+    }
+    iframe {
+        @include images (true, 100%, 200px);
+    }
+}
+/*descripcion de proyectos*/
+.projects__descriptionPost{
+    p {
+        font-size: $primaryFontSize;
+         color: $fontColor;
+         text-align: center;
+    }
+    h2{
+        color: $fontColor;
+        margin-top: $marginTopGeneral;
+        text-align: center; 
+        font-size: $primaryFontSize;   
+    }
+}
+.projects__shortDescription {
+    margin: 20px 30px;
+    font-size: $primaryFontSize;
+    color: $fontColor;
+}
+/* lista lateral de proyectos */
+.projectsAside {
+    @extend %asideContent;
+}
+.projectsAside__title {
+    @include alineacionTexto (center, 60px 0 0 0);
+}
+.projectsAside__list {
+    width: 50%;
+    @include alineacionTexto(center,auto);
+}
+.projectsAside__contact{
+    @extend %botonContacto;
+}

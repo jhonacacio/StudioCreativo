@@ -1,0 +1,33 @@
+/* inicio del footer */
+.footer__content {
+    @extend %displayFlexColumn;
+    justify-content: space-evenly;
+    background-color: $primaryColor;
+    color: $fontColor;
+    height: 650px;
+    text-align: center;
+    div {
+        margin: 20px 10px;
+    }
+    i {
+        margin: 0 7px; 
+    }
+    h4 {
+        font-family: 'Staatliches', cursive;
+        font-size: 14px;
+    }
+    p{
+        font-size: 12px;
+    }
+    iframe{
+        border-radius: 10px;
+    }
+}
+.footer__content--links{
+    a{
+        color: $fontColor;
+        text-decoration: none;
+        margin: 10px 10px;
+        font-size: 12px;
+    }
+} 
