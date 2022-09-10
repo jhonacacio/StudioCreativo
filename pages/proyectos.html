@@ -4,37 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/css/styles.css">
     <meta name="description" content="Proyectos audiovisuales realizados">
     <meta name="keywords" content="AUDIO PROFESIONAL, VIDEO CONFERENCIAS, INSTRUMENTOS MUSICALES, ESCENARIOS">
     <title>Studio C - Proyectos</title>
 </head>
 <body class="wrapperProjects">
-    <header class="projects__header">
+    <header class="headerIndex">
         <div class="headerOne">
-            <!-- logo -->
-            <a href="../index.html"><img class="headerOne__logo" src="../assets/images/logo-studio-c.png" alt="logo"></a>
+            <a href="../index.html"><img class="headerOne__logo__desk" src="../assets/images/logo-studio-c.png" alt="logo"></a>
             <!-- menu de navegacion -->
-            <input class="side-menu" type="checkbox" id="side-menu"/>
-            <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
-            <nav class="nav">
-                <ul class="menu">
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./servicios.html">Servicios</a></li>
-                    <li><a href="./proyectos.html">Proyectos</a></li>
-                    <li><a href="./conocenos.html">Conocenos</a></li>
-                    <li><a href="./contacto.html">Contáctanos</a></li>
-                </ul>
-            </nav>
-            <nav class="headerOne__nav">
-                <ul class="menu">
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./servicios.html">Servicios</a></li>
-                    <li><a href="./proyectos.html">Proyectos</a></li>
-                    <li><a href="./conocenos.html">Conocenos</a></li>
-                    <li><a href="./contacto.html">Contáctanos</a></li>
-                </ul>
-            </nav>
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <div class="container">
+                    <a href="../index.html"><img class="headerOne__logo" src="../assets/images/logo-studio-c.png" alt="logo"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./servicios.html">Servicios</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./proyectos.html">Proyectos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./conocenos.html">Conocenos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contáctanos</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </div>
     </header>
     <main class="projects__container">
@@ -108,37 +115,36 @@
             <a class="servicesAside__contact" href="./contacto.html"><i class="fa-brands fa-whatsapp-square"></i>Contacto</a>
         </div>
     </aside>
-    <footer class="footer__content">
-        <div>
-            <h4>Información de contacto</h4>
-            <br>
-            <p>Direccion: Calle Test. Chile</p>
-            <p>Telf: +534343536</p>
-            <p>Correo: asaf@gmail.com</p>
-        </div>
-        <div>
-            <h4>Redes sociales</h4>
-            <br>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-youtube"></i>
-            <i class="fa-brands fa-facebook-square"></i>
-        </div>
-        <div>
-            <h4>Categorias principales</h4>
-            <br>
-            <ul class="footer__content--links">
-                <li><a href="#">Cajas Activas</a></li>
-                <li><a href="#">Pianos y teclados</a></li>
-                <li><a href="#">Microfonos</a></li>
-                <li><a href="#">Mixer</a></li>
-            </ul>
-        </div>
-        <div>
-            <h4>Tiendas</h4>
-            <br>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26638.12844982202!2d-70.62678941719712!3d-33.42934304789535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf6ff096d887%3A0xc45df2bb50212e4e!2sProvidencia%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1658613779884!5m2!1ses-419!2scl" 
-            width="250" height="130" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-    </footer>
+   <!-- Footer -->
+   <footer class="text-center text-white footer__content">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="https://www.linkedin.com/in/jhonmario-acacio-qui%C3%B1onez-2aa6b3120/">Jhonmario Acacio</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -35,7 +35,7 @@
 /*grid para paginas simples*/
 .wrapperProjectsContact, .wrapperProjectsConocenos, #wrapperIndex {
   display: grid;
-  grid-template-areas: "header header header" "main main main" "footer footer footer";
+  grid-template-areas: "header" "main" "footer";
   grid-template-rows: auto;
   grid-template-columns: 1fr;
   width: 100%;
@@ -56,151 +56,31 @@
 }
 
 /*propiedad displey flex en columna centrado*/
-.contactContainer__left form, .contactContainer__left, .services__post, .footer__content, .headerOne {
+.contactContainer__left form, .contactContainer__left, .services__post {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 /* logo y navegacion */
-.nav {
-  width: 100%;
-  background-color: #121212;
-  overflow: hidden;
-  max-height: 0;
-  transition: max-height 0.5s ease-out;
-}
-
-.menu a {
-  display: block;
-  padding: 10px;
-  color: #f1f1f1;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Staatliches", cursive;
-}
-
-/* Menu Icon */
-.hamb {
-  cursor: pointer;
-  padding: 20px;
-} /* Style label tag */
-.hamb-line {
-  background: #f1f1f1;
-  display: block;
-  height: 2px;
-  position: relative;
-  width: 24px;
-} /* Style span tag */
-.hamb-line::before,
-.hamb-line::after {
-  background: #f1f1f1;
-  content: "";
-  display: block;
-  height: 100%;
-  position: absolute;
-  transition: all 0.2s ease-out;
-  width: 100%;
-}
-
-.hamb-line::before {
-  top: 5px;
-}
-
-.hamb-line::after {
-  top: -5px;
-}
-
-.side-menu {
-  display: none;
-} /* Hide checkbox */
-/* Toggle menu icon */
-.side-menu:checked ~ nav {
-  max-height: 100%;
-}
-
-.side-menu:checked ~ .hamb .hamb-line {
-  background: transparent;
-}
-
-.side-menu:checked ~ .hamb .hamb-line::before {
-  transform: rotate(-45deg);
-  top: 0;
-}
-
-.side-menu:checked ~ .hamb .hamb-line::after {
-  transform: rotate(45deg);
-  top: 0;
-}
-
-.headerOne {
-  justify-content: space-around;
-  margin-top: 0px;
-  background-color: #121212;
-}
-
 .headerOne__logo {
   width: 200px;
-  margin-top: 20px;
+}
+
+.headerOne__logo__desk {
+  width: 200px;
+  margin-right: 20px;
+  display: none;
+}
+
+.nav-link {
+  font-family: "Staatliches", cursive;
 }
 
 /* menu de navegacion */
-.headerOne__nav {
-  background-color: #121212;
-  box-shadow: 0px 0px 30px 10px #121212;
-  width: 100%;
-  height: 30px;
-  display: none;
-  align-items: center;
-  justify-content: center;
-  z-index: 99;
-}
-.headerOne__nav ul {
-  display: flex;
-  list-style-type: none;
-  justify-content: space-evenly;
-  padding: 0;
-}
-.headerOne__nav a {
-  text-decoration: none;
-  color: #f1f1f1;
-  padding: 5px 7px;
-  font-size: primaryFontSize;
-  text-transform: uppercase;
-  font-family: "Staatliches", cursive;
-}
-
-/* inicio del footer */
-.footer__content {
-  justify-content: space-evenly;
-  background-color: #121212;
-  color: #f1f1f1;
-  height: 650px;
-  text-align: center;
-}
-.footer__content div {
-  margin: 20px 10px;
-}
-.footer__content i {
-  margin: 0 7px;
-}
-.footer__content h4 {
-  font-family: "Staatliches", cursive;
-  font-size: 14px;
-}
-.footer__content p {
-  font-size: 12px;
-}
-.footer__content iframe {
-  border-radius: 10px;
-}
-
-.footer__content--links a {
-  color: #f1f1f1;
-  text-decoration: none;
-  margin: 10px 10px;
-  font-size: 12px;
+.btn-outline-light {
+  color: #C2D82E !important;
+  border-color: #C2D82E !important;
 }
 
 /* Configuracion general */
@@ -533,7 +413,6 @@
   margin-bottom: 20px;
 }
 .contactContainer__left form fieldset {
-  width: 20vh;
   height: 500px;
   border: none;
   text-align: center;
@@ -570,24 +449,19 @@
     display: block;
     width: 100%;
   }
-  .headerOne__nav {
-    display: flex;
-  }
-  .headerOne__nav a {
-    font-size: 1em;
-    transition: 500ms;
-  }
-  .hamb {
-    display: none;
-  }
-  .headerOne__nav a:hover {
-    color: #C2D82E;
+  .headerOne__logo__desk {
+    display: block;
+    margin: auto;
   }
   .headerOne__logo {
-    transition: 500ms;
+    display: none;
   }
-  .headerOne__logo:hover {
-    filter: grayscale(100%);
+  .headerOne {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
   }
   /* sub banners */
   .mainPage__Subbanner img {
@@ -606,15 +480,6 @@
   .brands__logo img:hover {
     filter: grayscale(100%);
     width: 140px;
-  }
-  /* inicio del footer */
-  .footer__content {
-    flex-direction: row;
-    height: 250px;
-    align-items: flex-start;
-  }
-  .featuredServices__title, .brands__tittle {
-    font-size: 4vh;
   }
   /* pagina deservicios destacados */
   /* contenedor de la pagina de servicios */

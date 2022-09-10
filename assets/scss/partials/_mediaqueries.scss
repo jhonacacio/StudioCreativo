@@ -14,30 +14,19 @@
             width: 100%;
         }
     }
-    .headerOne__nav{
-        display: flex;
-        a {
-            font-size: $primaryFontSize;
-            transition: map-get($estilos , transicionUno );
-        }
-    }
-    .hamb{
-        display: none;
-    }
-    .headerOne__nav {
-        a{
-            &:hover{
-                color: $secondaryColor;
-            }
-        }
-    }
-    .headerOne__logo {
-        transition: map-get($estilos , transicionUno );
+    .headerOne__logo__desk{
+        display: block;
+        margin: auto;
     }
     .headerOne__logo{
-        &:hover{
-            @include filtroGris (false);
-        }
+        display: none;
+    }
+    .headerOne{
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
     }
         /* sub banners */
     .mainPage__Subbanner{
@@ -67,15 +56,7 @@
             }
         }
     }
-    /* inicio del footer */
-    .footer__content {
-        flex-direction: row;
-        height: 250px;
-        align-items: flex-start;
-    }
-    .featuredServices__title, .brands__tittle{
-        font-size: 4vh;
-    }
+   
 /* pagina deservicios destacados */
 /* contenedor de la pagina de servicios */
 .wrapperServices {

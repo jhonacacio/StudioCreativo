@@ -27,9 +27,9 @@
 /*grid para paginas simples*/
 %wrapperGridArea{
     display: grid;
-    grid-template-areas: "header header header"
-                          "main main main"
-                          "footer footer footer";
+    grid-template-areas: "header"
+                          "main"
+                          "footer";
     grid-template-rows: auto;
     grid-template-columns: 1fr;
     width: 100%;
