@@ -264,6 +264,7 @@
 
 /* lista lateral de servicios */
 .servicesAside__list, .projectsAside__list {
+  margin: 10px 75px !important;
   text-align: center;
 }
 .servicesAside__list a, .projectsAside__list a {
